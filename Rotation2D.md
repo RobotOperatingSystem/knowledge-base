@@ -27,26 +27,23 @@ R(\alpha) =
 $$
 
 > [!TIP]
-> This matrix can be derived from **counterclockwise** rotation matrix by replacing $\alpha$ with $-\alpha$, like this:
->
+> *Clockwise* rotation matrix can be derived from **counterclockwise** rotation matrix
+> by replacing $\alpha$ with $-\alpha$, like this:
 > $$
-> \begin{bmatrix}
-> \cos(-\alpha) & -\sin(-\alpha) \\
-> \sin(-\alpha) & \cos(-\alpha)
-> \end{bmatrix} =
-> \begin{bmatrix}
-> \cos\alpha & \sin\alpha \\
-> -\sin\alpha & \cos\alpha
-> \end{bmatrix}
-> $$
+\begin{bmatrix}
+\cos(-\alpha) & -\sin(-\alpha) \\
+\sin(-\alpha) & \cos(-\alpha)
+\end{bmatrix} =
+\begin{bmatrix}
+\cos\alpha & \sin\alpha \\
+-\sin\alpha & \cos\alpha
+\end{bmatrix}
+$$
 > 
 > because:
-> 
-> $$\cos(-\alpha) = \cos\alpha$$
-> 
+$$\cos(-\alpha) = \cos\alpha$$
 > and
-> 
-> $$\sin(-\alpha) = -\sin\alpha$$ 
+$$\sin(-\alpha) = -\sin\alpha$$ 
 
 ## Using the rotation matrix
 
