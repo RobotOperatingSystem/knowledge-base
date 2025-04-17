@@ -1,15 +1,52 @@
 # Rotations in 2D
 
-
-
 To rotate a point or vector about origin in 2D space, a rotation matrix is used.
 
-The general form of the 2D rotation matrix $R$ for a **counterclockwise** rotation by an angle $\theta$ is:
+## Counterclockwise rotation
 
-$$
-R(\theta) =
+The general form of the 2D rotation matrix $R$ for a **counterclockwise** rotation by an angle $\alpha$ is:
+
+$
+R(\alpha) =
 \begin{bmatrix}
-\cos\ \theta & -\sin\ \theta \\
-\sin\ \theta & \cos\ \theta
+\cos\ \alpha & -\sin\ \alpha \\
+\sin\ \alpha & \cos\ \alpha
 \end{bmatrix}
-$$
+$
+
+## Clockwise rotation
+
+The general form of the 2D rotation matrix $R$ for a **clockwise** rotation by an angle $\alpha$ is:
+
+$
+R(\alpha) =
+\begin{bmatrix}
+\cos\ \alpha & \sin\ \alpha \\
+-\sin\ \alpha & \cos\ \alpha
+\end{bmatrix}
+$
+
+This matrix can be derived from **counterclockwise** rotation matrix by replacing $\alpha$ with $-\alpha$, like this:
+
+$
+\begin{bmatrix}
+\cos(-\alpha) & -\sin(-\alpha) \\
+\sin(-\alpha) & \cos(-\alpha)
+\end{bmatrix}
+=
+\begin{bmatrix}
+\cos\ \alpha & \sin\ \alpha \\
+-\sin\ \alpha & \cos\ \alpha
+\end{bmatrix}
+$
+
+because:
+
+$\cos(-\alpha) = \cos(\alpha)$
+
+and
+
+$\sin(-\alpha) = -\sin(\alpha)$ 
+
+## Using rotation matrix
+
