@@ -49,7 +49,7 @@ $$\sin(-\alpha) = -\sin\alpha$$
 
 ## Using the rotation matrix
 
-Having a vector
+Having a vector $\vec{v}$:
 
 $$
 \vec{v}=
@@ -68,7 +68,10 @@ $$
 \cos\alpha & -\sin\alpha \\
 \sin\alpha & \cos\alpha
 \end{bmatrix}
-\begin{bmatrix} x \\ y \end{bmatrix}=
+\begin{bmatrix}
+x \\
+y
+\end{bmatrix}=
 \begin{bmatrix} x\cdot\cos\alpha-y\cdot\sin\alpha \\ x\cdot\sin\alpha+ y\cdot\cos\alpha \end{bmatrix}
 $$
 
@@ -80,6 +83,9 @@ $$
 \cos\alpha & \sin\alpha \\
 -\sin\alpha & \cos\alpha
 \end{bmatrix}
-\begin{bmatrix} x \\ y \end{bmatrix}=
+\begin{bmatrix}
+x \\
+y
+\end{bmatrix}=
 \begin{bmatrix} x\cdot\cos\alpha+y\cdot\sin\alpha \\ -x\cdot\sin\alpha+ y\cdot\cos\alpha \end{bmatrix}
 $$
