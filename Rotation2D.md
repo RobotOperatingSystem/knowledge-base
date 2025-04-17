@@ -92,3 +92,31 @@ x\cdot\cos\alpha+y\cdot\sin\alpha \\
 \end{bmatrix}
 $$
 
+## Example
+
+> [!NOTE]
+> The following example is a little bit weird, so be careful!
+
+Let's have a vector $\vec{u}$:
+
+$$
+\vec{u}=
+\begin{bmatrix}
+2 \\
+1
+\end{bmatrix}
+$$
+
+and a vector $\vec{v}$:
+
+$$
+\vec{v}=
+\begin{bmatrix}
+1 \\
+2
+\end{bmatrix}
+$$
+
+Vector $\vec{v}$ is a **counterclockwise** rotated vector $\vec{u}$ about the origin by angle $\alpha$.
+
+**Question**: What is the value of the angle $\alpha$? 
