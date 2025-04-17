@@ -4,7 +4,7 @@ To rotate a point or vector about origin in 2D space, a rotation matrix is used.
 
 ## Counterclockwise rotation
 
-The general form of the 2D rotation matrix $R$ for a **counterclockwise** rotation by an angle $\alpha$ is:
+The general form of the 2D rotation matrix **$R$** for a **counterclockwise** rotation by an angle $\alpha$ is:
 
 $$
 R(\alpha) =
