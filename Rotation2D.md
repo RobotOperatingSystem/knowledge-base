@@ -32,8 +32,7 @@ $$
 \begin{bmatrix}
 \cos(-\alpha) & -\sin(-\alpha) \\
 \sin(-\alpha) & \cos(-\alpha)
-\end{bmatrix}
-=
+\end{bmatrix} =
 \begin{bmatrix}
 \cos\ \alpha & \sin\ \alpha \\
 -\sin\ \alpha & \cos\ \alpha
