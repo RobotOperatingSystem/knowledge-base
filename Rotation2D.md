@@ -94,7 +94,7 @@ $$
 
 ## Example
 
-> [!NOTE]
+> [!WARNING]
 > The following example is a little bit weird, so be careful!
 
 Let's have a vector $\vec{u}$:
@@ -120,3 +120,63 @@ $$
 Vector $\vec{v}$ is a **counterclockwise** rotated vector $\vec{u}$ about the origin by angle $\alpha$.
 
 **Question**: What is the value of the angle $\alpha$? 
+
+**Answer**:
+
+$$
+\begin{bmatrix}
+1 \\
+2
+\end{bmatrix}=
+\begin{bmatrix}
+\cos\alpha & -\sin\alpha \\
+\sin\alpha & \cos\alpha
+\end{bmatrix}
+\begin{bmatrix}
+2 \\
+1
+\end{bmatrix}=
+\begin{bmatrix}
+2\cdot\cos\alpha-\sin\alpha \\
+2\cdot\sin\alpha+ \cos\alpha
+\end{bmatrix}
+$$
+
+So we have two equations:
+
+$$
+1 = 2\cdot\cos\alpha-\sin\alpha
+$$
+$$
+2 = 2\cdot\sin\alpha+\cos\alpha
+$$
+
+From the first one we calculate $\sin\alpha$:
+
+$$
+\sin\alpha=2\cdot\cos\alpha-1
+$$
+
+and substitute $\sin\alpha$ in the second equation:
+
+$$
+2=2\cdot(2\cdot\cos\alpha-1) + \cos\alpha=4\cos\alpha-2+\cos\alpha=5\cos\alpha-2
+$$
+
+We calculate now the value of $\alpha$:
+
+$$
+2=5\cos\alpha-2
+$$
+
+$$
+4=5\cos\alpha
+$$
+
+$$
+\cos\alpha = \frac{4}{5}
+$$
+
+$$
+\alpha = \cos^{-1}(\frac{4}{5})\thickapprox0.6435011087932843\ rad\thickapprox36.86989764584401^{\circ}
+$$
