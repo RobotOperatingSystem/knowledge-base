@@ -27,6 +27,7 @@ R(\alpha) =
 $$
 
 > [!TIP]
+
 *Clockwise* rotation matrix can be derived from **counterclockwise** rotation matrix
 by replacing $\alpha$ with $-\alpha$, like this:
 
