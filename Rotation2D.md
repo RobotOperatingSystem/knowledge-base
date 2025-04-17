@@ -72,7 +72,10 @@ $$
 x \\
 y
 \end{bmatrix}=
-\begin{bmatrix} x\cdot\cos\alpha-y\cdot\sin\alpha \\ x\cdot\sin\alpha+ y\cdot\cos\alpha \end{bmatrix}
+\begin{bmatrix}
+x\cdot\cos\alpha-y\cdot\sin\alpha \\
+x\cdot\sin\alpha+ y\cdot\cos\alpha
+\end{bmatrix}
 $$
 
 The new vector $\vec{z}$ after **clockwise** rotation by angle $\alpha$ is calculated by:
@@ -87,5 +90,8 @@ $$
 x \\
 y
 \end{bmatrix}=
-\begin{bmatrix} x\cdot\cos\alpha+y\cdot\sin\alpha \\ -x\cdot\sin\alpha+ y\cdot\cos\alpha \end{bmatrix}
+\begin{bmatrix}
+x\cdot\cos\alpha+y\cdot\sin\alpha \\
+-x\cdot\sin\alpha+ y\cdot\cos\alpha
+\end{bmatrix}
 $$
