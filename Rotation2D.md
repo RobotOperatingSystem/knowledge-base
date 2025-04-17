@@ -9,7 +9,7 @@ The general form of the 2D rotation matrix $R$ for a **counterclockwise** rotati
 $$
 R(\theta) =
 \begin{bmatrix}
-\cos \theta & -\sin\,\theta \\
-\sin\,\theta & \cos\,\theta
+\cos\ \theta & -\sin\ \theta \\
+\sin\ \theta & \cos\ \theta
 \end{bmatrix}
 $$
