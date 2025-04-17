@@ -160,17 +160,17 @@ $$
 and substitute $\sin\alpha$ in the second equation:
 
 $$
-2=2\cdot(2\cdot\cos\alpha-1) + \cos\alpha=4\cos\alpha-2+\cos\alpha=5\cos\alpha-2
+2=2\cdot(2\cdot\cos\alpha-1) + \cos\alpha=4\cdot\cos\alpha-2+\cos\alpha=5\cdot\cos\alpha-2
 $$
 
 We calculate now the value of $\alpha$:
 
 $$
-2=5\cos\alpha-2
+2=5\cdot\cos\alpha-2
 $$
 
 $$
-4=5\cos\alpha
+4=5\cdot\cos\alpha
 $$
 
 $$
