@@ -29,7 +29,8 @@ $$
 > [!TIP]
 > *Clockwise* rotation matrix can be derived from **counterclockwise** rotation matrix
 > by replacing $\alpha$ with $-\alpha$, like this:
-> $$\begin{bmatrix}
+
+$$\begin{bmatrix}
 \cos(-\alpha) & -\sin(-\alpha) \\
 \sin(-\alpha) & \cos(-\alpha)
 \end{bmatrix} =
@@ -38,10 +39,10 @@ $$
 -\sin\alpha & \cos\alpha
 \end{bmatrix}
 $$
-> 
-> because:
+
+because:
 $$\cos(-\alpha) = \cos\alpha$$
-> and
+and
 $$\sin(-\alpha) = -\sin\alpha$$ 
 
 ## Using the rotation matrix
