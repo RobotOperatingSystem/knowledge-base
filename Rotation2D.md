@@ -52,7 +52,7 @@ $$\sin(-\alpha) = -\sin\alpha$$
 Having a vector
 
 $$
-\vec{v}=\begin{bmatrix}x\\y\end{bmatrix}
+\vec{v}=\begin{bmatrix} x \\ y \end{bmatrix}
 $$
 
 the new vector $\vec{w}$
