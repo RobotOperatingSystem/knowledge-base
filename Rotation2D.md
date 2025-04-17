@@ -49,7 +49,11 @@ $$\sin(-\alpha) = -\sin\alpha$$
 
 ## Using the rotation matrix
 
-Having a vector $\vec{v} = \begin{bmatrix} x \\ y \end{bmatrix}$, the new vector $\vec{w}$
+Having a vector
+
+$\vec{v}=\begin{bmatrix}x\\y\end{bmatrix}$
+
+the new vector $\vec{w}$
 after **counterclockwise** rotation by angle $\alpha$ is calculated by:
 
 $$
