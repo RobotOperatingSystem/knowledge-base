@@ -4,7 +4,7 @@ To rotate a point or vector about origin in 2D space, a rotation matrix is used.
 
 ## Counterclockwise rotation
 
-The general form of the 2D rotation matrix **$R$** for a **counterclockwise** rotation by an angle $\alpha$ is:
+The general form of the 2D rotation matrix $R$ for a **counterclockwise** rotation by an angle $\alpha$ is:
 
 $$
 R(\alpha) =
@@ -21,31 +21,32 @@ The general form of the 2D rotation matrix $R$ for a **clockwise** rotation by a
 $$
 R(\alpha) =
 \begin{bmatrix}
-\cos\\alpha & \sin\\alpha \\
--\sin\\alpha & \cos\\alpha
+\cos\alpha & \sin\alpha \\
+-\sin\alpha & \cos\alpha
 \end{bmatrix}
 $$
 
-This matrix can be derived from **counterclockwise** rotation matrix by replacing $\alpha$ with $-\alpha$, like this:
-
-$$
-\begin{bmatrix}
-\cos(-\alpha) & -\sin(-\alpha) \\
-\sin(-\alpha) & \cos(-\alpha)
-\end{bmatrix} =
-\begin{bmatrix}
-\cos\\alpha & \sin\\alpha \\
--\sin\\alpha & \cos\\alpha
-\end{bmatrix}
-$$
-
-because:
-
-$$\cos(-\alpha) = \cos\alpha$$
-
-and
-
-$$\sin(-\alpha) = -\sin\alpha$$ 
+> [!TIP]
+> This matrix can be derived from **counterclockwise** rotation matrix by replacing $\alpha$ with $-\alpha$, like this:
+>
+> $$
+> \begin{bmatrix}
+> \cos(-\alpha) & -\sin(-\alpha) \\
+> \sin(-\alpha) & \cos(-\alpha)
+> \end{bmatrix} =
+> \begin{bmatrix}
+> \cos\alpha & \sin\alpha \\
+> -\sin\alpha & \cos\alpha
+> \end{bmatrix}
+> $$
+> 
+> because:
+> 
+> $$\cos(-\alpha) = \cos\alpha$$
+> 
+> and
+> 
+> $$\sin(-\alpha) = -\sin\alpha$$ 
 
 ## Using the rotation matrix
 
@@ -95,3 +96,4 @@ x\cdot\cos\alpha+y\cdot\sin\alpha \\
 -x\cdot\sin\alpha+ y\cdot\cos\alpha
 \end{bmatrix}
 $$
+
